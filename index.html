@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie's Rating</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <script src="main.js"></script>
+    <script src="movie.js"></script>
+<form onsubmit="return false">
+    <fieldset id="section1">
+        <legend>Rate Your Favorite Movies!</legend>
+        <label for="movieName">Name of the Movie: </label>
+        <input type="text" name="movieName" id="movieName"></input>
+        <br>
+        <label for="rating">Rating of the Movie:</label>
+        <select name="Rate" input type="number" id = "Rate">
+            <option></option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <br>
+        <button class="submitMovie" id="submitMovie" type="submit">Add Movie</button>
+        <button class="showMovie" id="showMovie" type="submit">Show Movies</button>
+    </fieldset>
+    <fieldset id="section2">
+        <legend>List of Movies</legend>
+        <p>Your List <br>
+        <textarea name="yourlist" id="yourList" rows="10"></textarea></p>
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,131 @@
+#Rate {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(95, 120, 205);
+    color: rgb(53, 62, 98);
+    background-color: rgb(205, 225, 242);
+    margin: 2px 0px 15px 10px;
+    width: 70%;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial,
+    sans-serif;
+    font-weight: 800;
+}
+
+#movieName {
+    border-style: inherit;
+    border-radius: 5px;
+    border-color: rgb(95, 120, 205);
+    color: rgb(53, 62, 98);
+    background-color: rgb(205, 225, 242);
+    margin: 2px 0px 15px 10px;
+    width: 70%;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial,
+    sans-serif;
+    font-weight: 800;
+}
+
+legend {
+    color: rgb(53, 92, 170);
+    font-size: large;
+    text-shadow: .1em .1em rgb(195, 192, 192);
+    border-radius: 5px;
+    background-color: rgb(188, 214, 235);
+    border-color: rgb(0, 119, 255);
+    width: 90%;
+    padding: 0.2em 0.2em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial,
+    sans-serif;
+    font-weight: 800;
+}
+
+#section1 {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(108, 156, 232);
+    color: rgb(45, 70, 120);
+    margin: 2px 2px 15px 10px;
+    width: 50%;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    --stripe: #cfd8dc;
+    --bg: #e1e1e1;
+    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+        linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+        linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+        linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: var(--stripe); 
+}
+
+#section2 {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(108, 156, 232);
+    color: rgb(45, 70, 120);
+    margin: 2px 2px 15px 10px;
+    width: 50%;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial,
+    sans-serif;
+    font-weight: 800;
+    --stripe: #cfd8dc;
+    --bg: #e1e1e1;
+    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: var(--stripe);
+}
+
+#movieRating {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(95, 120, 205);
+    color: rgb(53, 62, 98);
+    background-color: rgb(205, 225, 242);
+    margin: 2px 0px 15px 10px;
+    width: 30%;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial,
+    sans-serif;
+    font-weight: 800;
+}
+
+#submitMovie {
+    border: solid;
+    border-color: rgb(14, 11, 190);
+    border-radius: 4px;
+    background-color: rgb(139, 187, 202);
+}
+
+#showMovie {
+    border: solid;
+    border-color: rgb(14, 11, 190);
+    border-radius: 4px;
+    background-color: rgb(139, 187, 202);
+}
+
+#yourList {
+    background-color: rgb(205, 225, 242);
+    width: 90%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(95, 120, 205);
+}
